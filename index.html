@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um clássico do cinema</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero__content">
+            <h3 class="title--big">
+                Um clássico do cinema!
+            </h3>
+            <p class="title--small">
+                Hamlet, de Laurence Olivier
+            </p>
+            <img src="./src/images/poster-hamlet.jpg" alt="">
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Hamlet
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Principe da Dinamarca
+            </button>
+        </nav>
+        <ul data-tab-id="populares" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./src/images/imagem-hamlet2.jpg">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./src/images/imagem-hamlet3.jpg">
+            </li>
+        </ul>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/tv.png" alt="TV">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/videogames.png" alt="video games">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/celular.png" alt="celular">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Conheça os personagens</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Claudius
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Rei da Dinamarca
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Hamlet
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Sobrinho do rei 
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Gertrude
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Rainha e mãe de Hamlet
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Horácio
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Amigo de Hamlet
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Polonio
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Adjunto do rei
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Ofélia
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Filha de Polonio
+                </div>
+            </li>
+        </ul>
+    </section>
+    <script src="./src/main.js"></script>
+</body>
+</html>

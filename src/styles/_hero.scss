@@ -1,0 +1,54 @@
+@use 'variaveis';
+
+.hero {
+    padding: calc(5.6vw * 0.68);
+    min-height: calc(80vh * 0.68);
+    text-align: right;
+    margin-left: 800px;
+
+    img {
+        height: 320px;
+        
+    }
+
+    .button {
+        margin-top: 2vw;
+        margin-bottom: 8px;
+    }
+
+    &__content {
+        max-width: calc(640px * 0.68);
+
+        &__branding {
+            max-width: calc(320px * 0.68);
+            margin: 0 auto calc(38px * 0.68);
+        }
+
+        .title--small {
+            margin-bottom: calc(64px * 0.68);
+        }
+
+        p {
+            margin-bottom: calc(20px * 0.68);
+            
+            &:last-child {
+                margin-top: calc(60px * 0.68);
+            }
+        }
+
+        &__combos {
+            display: flex;
+            justify-content: space-between;
+
+            &__combo {
+                width: calc(50% - 12px);
+                list-style: none;
+
+                img {
+                    max-height: calc(60px * 0.68);
+                }
+
+            }
+        }
+    }
+}
